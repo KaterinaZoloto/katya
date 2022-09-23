@@ -1,0 +1,27 @@
+
+tbody {
+    background-color:lightgrey;
+}
+td{
+    margin: 15px;
+    padding: 25px;
+    
+}
+.grey{
+    background-color:silver;
+}
+.one {
+    background-color:rgb(199, 223, 226);
+}
+.two {
+    background-color:rgb(165, 217, 224);
+}
+.three{
+    background-color: rgb(119, 197, 207);
+}
+.four{
+background-color: rgb(80, 164, 175);
+}
+.five{
+background-color: rgb(44, 139, 151);
+}
