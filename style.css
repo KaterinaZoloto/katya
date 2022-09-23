@@ -1,27 +1,34 @@
-
-tbody {
-    background-color:lightgrey;
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 650px;
 }
-td{
-    margin: 15px;
-    padding: 25px;
+.head {
+    display: grid;
+    grid-template-columns: 200px 100px 100px 100px 100px;
+    grid-template-rows: 10px 10px 10px 50px 50px;
+    background-color: rgb(152, 196, 240);
+}
+.body{
+    display: grid;
+    grid-template-columns: 200px 100px 100px 100px 100px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    text-align: center;
+    background-color: rgb(208, 211, 211);
+    padding: 10px;
+    text-align: left;
+    padding: 10px;
     
+ 
 }
-.grey{
-    background-color:silver;
+.buttons{
+    display: grid;
+    grid-template-columns: 200px 100px 100px 100px 100px;
+    grid-template-rows: 100px 60px 60px 60px 60px;
+    padding: 20px;
 }
 .one {
-    background-color:rgb(199, 223, 226);
+    text-align: left;
+    padding: 10px;
 }
-.two {
-    background-color:rgb(165, 217, 224);
-}
-.three{
-    background-color: rgb(119, 197, 207);
-}
-.four{
-background-color: rgb(80, 164, 175);
-}
-.five{
-background-color: rgb(44, 139, 151);
-}
+
+
